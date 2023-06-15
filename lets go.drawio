@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T08:08:04.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="O5fth0eFZFP2vR3Btlnd" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T04:48:00.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="IE8mvezsiYlTyrwaHzd0" version="21.3.7" type="github">
   <diagram name="페이지-1" id="b9ulTc4KV4PiuijPxStl">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,11 +13,11 @@
         <mxCell id="nuSkMVnRBMjdluR059bn-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nuSkMVnRBMjdluR059bn-3" target="nuSkMVnRBMjdluR059bn-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nuSkMVnRBMjdluR059bn-3" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;handle_spi_packet_by_extended_frameID()&lt;/font&gt;&lt;br&gt;&lt;/b&gt;(apps_spi.c)&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;switch에서&amp;nbsp;&lt;b&gt;FID_WM_VOICE_FUNC_STATUS&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="nuSkMVnRBMjdluR059bn-3" value="&lt;font style=&quot;&quot; color=&quot;#007fff&quot;&gt;&lt;b&gt;handle_spi_packet_by_extended_frameID()&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(apps_spi.c)&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;switch에서&amp;nbsp;&lt;b&gt;FID_WM_VOICE_FUNC_STATUS&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="110" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nuSkMVnRBMjdluR059bn-4" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;APPS_VR_MANAGER_Task()&lt;/font&gt;&lt;/b&gt;&lt;br&gt;(service_vr_manager.c)&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;switch에서 &lt;b&gt;eVR_MANAGER_WM_VOICE_FUNC_STATUS&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="477" y="105" width="393" height="70" as="geometry" />
+          <mxGeometry x="477" y="105" width="333" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nuSkMVnRBMjdluR059bn-12" value="&lt;b&gt;DQC 내의 통신 방법: 여러 thread가 돌면서 message를 확인하는 것&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="15" width="370" height="35" as="geometry" />
@@ -46,7 +46,7 @@
             <mxPoint x="765.5000000000002" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nuSkMVnRBMjdluR059bn-32" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;playback_service_thread_main()&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="nuSkMVnRBMjdluR059bn-32" value="&lt;b style=&quot;color: rgb(0, 127, 255);&quot;&gt;playback_service_thread_main()&lt;/b&gt;&lt;br&gt;(service_playback.c)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="631" y="347" width="270" height="33" as="geometry" />
         </mxCell>
         <mxCell id="nuSkMVnRBMjdluR059bn-33" value="&lt;b style=&quot;color: rgb(0, 204, 0);&quot;&gt;sound_playback_speex_start()&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;PLAY_RESOURCE_SND_QVOICE_ON_HI_LG&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;i&gt;&quot;음성인식기능을 시작합니다, HI LG라고 외쳐주세요&quot;&lt;/i&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -73,7 +73,7 @@
         <mxCell id="VJRcujgouCOZJbLcKrj6-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="911" y="363.15999999999997" as="sourcePoint" />
-            <mxPoint x="890" y="130" as="targetPoint" />
+            <mxPoint x="820" y="130" as="targetPoint" />
             <Array as="points">
               <mxPoint x="960" y="363" />
               <mxPoint x="960" y="130" />
@@ -86,16 +86,16 @@
         </mxCell>
         <mxCell id="VJRcujgouCOZJbLcKrj6-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="880" y="120" as="sourcePoint" />
-            <mxPoint x="870" y="100" as="targetPoint" />
+            <mxPoint x="830" y="117" as="sourcePoint" />
+            <mxPoint x="820" y="97" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="910" y="120" />
-              <mxPoint x="910" y="100" />
+              <mxPoint x="860" y="117" />
+              <mxPoint x="860" y="97" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VJRcujgouCOZJbLcKrj6-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;eVR_MANAGER_ACTIVATE_WAKEUP_THREAD&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="100" width="240" height="20" as="geometry" />
+          <mxGeometry x="870" y="97" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VJRcujgouCOZJbLcKrj6-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;eVR_MANAGER_ACTIVATE_RECORD_START_THREAD&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="59.5" width="270" height="14" as="geometry" />
@@ -136,8 +136,101 @@
             <mxPoint x="1430" y="109.24000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VJRcujgouCOZJbLcKrj6-28" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;b style=&quot;color: rgb(0, 127, 255);&quot;&gt;APPS_KWD_TASK&lt;/b&gt;&lt;br&gt;&lt;br&gt;HATWD_CORE&lt;br&gt;처음이면 먼저 init 해주고 아니면 다시 resume 해준다&lt;br&gt;&lt;br&gt;내일은 dqc1 168번 부터!&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="117" width="140" height="96.5" as="geometry" />
+        <mxCell id="VJRcujgouCOZJbLcKrj6-28" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;color: rgb(0, 127, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;APPS_KWD_TASK&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;HATWD_CORE&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;처음이면 먼저 init 해주고 아니면 다시 resume 해준다&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="117" width="140" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-29" value="기동어 인식 프로세스" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="630" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-30" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;color: rgb(0, 127, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;APPS_KWD_TASK&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="640" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-31" value="&lt;font color=&quot;#00cc00&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;Process_Wakeup&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="670" width="140" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="677" as="sourcePoint" />
+            <mxPoint x="310" y="677.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-33" value="&lt;font color=&quot;#00cc00&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;LNE&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="610" width="60" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="660" as="sourcePoint" />
+            <mxPoint x="380" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="sourcePoint" />
+            <mxPoint x="400" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="105" as="sourcePoint" />
+            <mxPoint x="700" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="75" as="sourcePoint" />
+            <mxPoint x="720" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-39" value="&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;setWifiStateChanged&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="436" y="1000" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-40" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;color: rgb(0, 127, 255);&quot;&gt;handle_spi_packet_by_extended_frameID&lt;/b&gt;&lt;br&gt;(apps_spi.c)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1000" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="1036.5" as="sourcePoint" />
+            <mxPoint x="830" y="1036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-42" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FID_WIFI_CONNECT_STATE_CHANGED&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1010" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-43" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;APPS_VR_MANAGER_Task()&lt;/font&gt;&lt;/b&gt;&lt;br&gt;(service_vr_manager.c)&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;switch에서 &lt;b&gt;eVR_MANAGER_WM_VOICE_FUNC_STATUS&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1463" y="1000" width="333" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1202" y="1035" as="sourcePoint" />
+            <mxPoint x="1442" y="1034.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-45" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;eVR_MANAGER_WIFI_CONNECTION_STATE_CHANGED&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1222" y="1010" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-46" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;color: rgb(0, 127, 255);&quot;&gt;handle_spi_packet_by_extended_frameID&lt;/b&gt;&lt;br&gt;(apps_spi.c)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="800" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="835" as="sourcePoint" />
+            <mxPoint x="1040" y="834.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-48" value="&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;wifi_indication()&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(wifi_ind.c)&lt;br&gt;&lt;br&gt;wifi_&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="800" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="800" as="sourcePoint" />
+            <mxPoint x="1300" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1201" y="860" as="sourcePoint" />
+            <mxPoint x="1300" y="890" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
