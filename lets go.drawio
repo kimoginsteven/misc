@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T06:28:27.075Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="s1iUYdEX8RBFbkrH21qg" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T08:35:34.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="PCwbp0OwpTT5LgKnCcLe" version="21.3.7" type="github">
   <diagram name="페이지-1" id="b9ulTc4KV4PiuijPxStl">
     <mxGraphModel dx="2261" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,8 +280,26 @@
             <mxPoint x="-120" y="677" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VJRcujgouCOZJbLcKrj6-63" value="&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;wifi_connect_async()&lt;/b&gt;&lt;/font&gt;(wlan_impl.c)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VJRcujgouCOZJbLcKrj6-63" value="&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;wifi_connected_hdl()&lt;/b&gt;&lt;/font&gt;(wlan_impl.c)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-100" y="630" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-65" value="&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;dhcp_thread()&lt;/b&gt;&lt;/font&gt;(wlan_impl.c)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="520" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-66" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="26" y="620" as="sourcePoint" />
+            <mxPoint x="86" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-67" value="&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;_ameba_wlan_addAuxiliaryDNS()&lt;/b&gt;&lt;/font&gt;(wlan_impl.c)&lt;br&gt;&lt;br&gt;보조 DNS 설정&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-69" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="510" as="sourcePoint" />
+            <mxPoint x="150" y="460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
