@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T08:22:09.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="soxt5Acjx0fz1PDfoDzE" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T00:42:00.516Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="f0mWUPQPgkiBpz6f3mgc" version="21.3.7" type="github">
   <diagram name="페이지-1" id="b9ulTc4KV4PiuijPxStl">
-    <mxGraphModel dx="6563" dy="3184" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -339,6 +339,12 @@
         </mxCell>
         <mxCell id="VJRcujgouCOZJbLcKrj6-98" value="이게 어떻게 호출되는지 잘 모르겠다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="1420" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-99" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;color: rgb(0, 127, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;CB_onDetected&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;process_wakeup&amp;nbsp; 안에 있는 callback 함수&lt;br&gt;&lt;/span&gt;띵동을 보내기도하고&lt;br&gt;send_message_to_vr_manager(eVR_MANAGER_ACTIVATE_WAKEUP_THREAD) 실행&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="97" width="140" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-100" value="&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;apps_vr_manager_task&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;FID_ASR_SPECIAL_STATUS로 modem에게 보냄&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2202.5" y="7" width="140" height="163" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
