@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T01:34:33.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="hufl9hQPR1KrcvLT6gc3" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T02:29:44.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="psf2Kc4i6Z1aJn8DA-w4" version="21.3.7" type="github">
   <diagram name="페이지-1" id="b9ulTc4KV4PiuijPxStl">
     <mxGraphModel dx="2261" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -352,8 +352,23 @@
             <mxPoint x="2147.25" y="97" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VJRcujgouCOZJbLcKrj6-102" value="&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;apps_aud_data_task&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;여기서는 wake uup 음성 다 플레이하고 그 다음에 다시 apps_kwd_task으로 msg를 보낸다. 이번에는 cmd가 0이라서 바로 asr 인식 실행이 된다&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="VJRcujgouCOZJbLcKrj6-102" value="&lt;font style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;apps_aud_data_task&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;여기서는 wake uup 음성 다 플레이하면 그 다음에 다시 apps_kwd_task으로 msg를 보낸다. 이번에는 cmd가 0이라서 바로 asr 인식 실행이 된다&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2400" y="28.5" width="140" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-103" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2380" y="190" as="sourcePoint" />
+            <mxPoint x="2270" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-105" value="&lt;font style=&quot;&quot; color=&quot;#007fff&quot;&gt;&lt;b&gt;startAsrNlp()&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(LGAI_API.c)&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;여기서 lgasr_open 하고&lt;br&gt;&lt;/span&gt;asrStartListeningBuffer&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="73.5" width="260" height="96.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-106" value="&lt;font style=&quot;&quot; color=&quot;#007fff&quot;&gt;&lt;b&gt;startAsrNlp()&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(LGAI_API.c)&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;여기서 lgasr_start하고 그러면 heschl; recognition thread가 실행&lt;br&gt;&lt;/span&gt;asrStartListeningBuffer&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="223.5" width="260" height="96.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VJRcujgouCOZJbLcKrj6-107" value="&amp;nbsp;heschl; recognition thread&lt;font style=&quot;&quot; color=&quot;#007fff&quot;&gt;&lt;b&gt;()&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(LGAI_API.c)&lt;br&gt;여기서 dm-sendrequest을 통해 cservice_execute_tts가 실행" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="386.75" width="260" height="96.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
