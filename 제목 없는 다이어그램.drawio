@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T06:33:15.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.7" etag="2VUmi59a9UCRkHEr3E2T" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T01:58:42.682Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vF2GNNYssba19eksIQO0" version="21.3.7" type="github">
   <diagram name="페이지-1" id="cum1rdiwvAK9aYkI4hln">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Td8jf2KpJYnkT_L6Asfo-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Td8jf2KpJYnkT_L6Asfo-1" target="Td8jf2KpJYnkT_L6Asfo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Td8jf2KpJYnkT_L6Asfo-1" value="&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;setCallbackAsrNlp()&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(LGAI_API.c)&lt;br&gt;&lt;br&gt;mVrListener-&amp;gt;_onResults = _cbAsrOnResults;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Td8jf2KpJYnkT_L6Asfo-2" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;_cbAsrOnResults()&lt;br&gt;&lt;/font&gt;&lt;/b&gt;(LGAI_API.c)&lt;br&gt;&lt;br&gt;&lt;b&gt;mVrCallback&lt;/b&gt;(LGAI_VR_NLP_CB_RESULT, &amp;amp;result)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Td8jf2KpJYnkT_L6Asfo-4" value="&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;setCallbackAsrNlp()&lt;br&gt;&lt;/font&gt;&lt;/b&gt;(LGAI_API.c)&lt;br&gt;&lt;br&gt;VrCallback = (LGAI_OnVoiceRecognitionNlpPTR) &lt;b&gt;on_asr_result_callback&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Td8jf2KpJYnkT_L6Asfo-7" value="on_asr_result_callback에서 각 case마다 처리해준다&lt;br&gt;&lt;br&gt;case&amp;nbsp;LGAI_VR_NLP_CB_READY_FOR_SPEECH:&lt;br&gt;...&lt;br&gt;case LGAI_VR_NLP_CB_RESULT:&lt;br&gt;...&lt;br&gt;case&amp;nbsp;LGAI_VR_NLP_CB_ERROR:&lt;br&gt;...&amp;nbsp;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="254" y="400" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Td8jf2KpJYnkT_L6Asfo-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413" y="400" as="sourcePoint" />
+            <mxPoint x="413" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
