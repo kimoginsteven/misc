@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T07:22:40.529Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="jeuh1oNXgyXjtMMJuLDb" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T01:58:37.863Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="7muHnCswd40ht5cgyXxR" version="21.3.7" type="github">
   <diagram name="페이지-1" id="b9ulTc4KV4PiuijPxStl">
     <mxGraphModel dx="2514" dy="2105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,7 +121,7 @@
         <mxCell id="VJRcujgouCOZJbLcKrj6-23" value="&lt;font style=&quot;font-size: 10px; font-weight: bold;&quot; color=&quot;#00cc00&quot;&gt;init_start_vr_core_wakeup()&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;여기서 kwd_status을 계속 true로 바꿔줌으로써 apps_kwd_task 함수에서 기동어 인식에 대한 처리가 가능하다&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;여기서 &lt;/b&gt;&lt;b&gt;g_sound_apps-&amp;gt;vr_core_wakeup_service_ptr&lt;/b&gt;&lt;br&gt;&lt;b style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;이게 0 (DQC_FALSE)이면 아직 wake up (HATWD)가 생성되지 않았다는 뜻이다.&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1536" y="126" width="284" height="144" as="geometry" />
         </mxCell>
-        <mxCell id="VJRcujgouCOZJbLcKrj6-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VJRcujgouCOZJbLcKrj6-12">
+        <mxCell id="VJRcujgouCOZJbLcKrj6-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=-0.014;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VJRcujgouCOZJbLcKrj6-12" target="VJRcujgouCOZJbLcKrj6-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1180" y="185" as="sourcePoint" />
             <mxPoint x="1510" y="185" as="targetPoint" />
@@ -129,7 +129,6 @@
               <mxPoint x="1180" y="245" />
               <mxPoint x="1340" y="405" />
               <mxPoint x="1480" y="335" />
-              <mxPoint x="1490" y="185" />
             </Array>
           </mxGeometry>
         </mxCell>
