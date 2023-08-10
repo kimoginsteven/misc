@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T07:44:43.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="c6hJimXKT_amp2FMypc2" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T08:03:37.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="aEI-YZiQNJaT2lvZwTI3" version="21.6.7" type="github">
   <diagram name="페이지-1" id="XCwguPV3iCqasTkN0QVd">
-    <mxGraphModel dx="3331" dy="2131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2995" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,12 +150,12 @@
             <mxPoint x="120" y="-35" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sXWmz9hjVyttIy2R4i8F-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="TrRbaetDsdgHLVqCblbi-10">
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.004;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TrRbaetDsdgHLVqCblbi-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="190" y="130" as="sourcePoint" />
             <mxPoint x="200" y="370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-40" y="90" />
+              <mxPoint x="-30" y="80" />
               <mxPoint x="-30" y="370" />
               <mxPoint x="90" y="370" />
             </Array>
@@ -391,6 +391,48 @@
             <mxPoint x="830" y="1270" as="targetPoint" />
             <Array as="points">
               <mxPoint x="830" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-127" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;timer_seamless_callback()&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(apps_aud.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- apps_aud_task에게 띵동 소리를 playlist에 넣을 수 있게 msg 전송&lt;br&gt;-&amp;nbsp;send_msg(APPS_KWD_TASK_ID, APPS_AUD_TASK_ID, APP_AUD_CMD_PUSH_WAKEUP_SOUND, 0, 0);" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="1162" y="-440" width="458" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-128" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#007fff&quot;&gt;APPS_AUD_CLIENT_MAIN_TASK()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(apps_aud.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- audio를 어떻게 할 지 handling 해주는 thread&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- timer가 다 되면 띵동 소리를 재생하라는 callback 함수를 hal_swt_create를 통해 만듬&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="-170" width="550" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-129" value="&lt;div style=&quot;&quot;&gt;case&amp;nbsp;&lt;b&gt;APP_AUD_CMD_PUSH_WAKEUP_SOUND&lt;/b&gt;&lt;/div&gt;- playlist_push() : &quot;띵동&quot; 음원을 playlist에 넣는 함수 실행&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- send_message_to_playback_playlist_update : playlist_update되었다고 playback thread에게 메시지 전&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="-60" width="530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-130" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.561;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-129" target="sXWmz9hjVyttIy2R4i8F-97">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1770" y="-33" as="sourcePoint" />
+            <mxPoint x="1540" y="1150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2200" y="-68" />
+              <mxPoint x="2190" y="1140" />
+              <mxPoint x="1570" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-131" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;type: &lt;b&gt;PLAYLIST_TYPE_SPEEX&lt;/b&gt;&lt;br&gt;fliename: &lt;b&gt;PLAY_RESOURCE_WM_VR_START&lt;/b&gt;&lt;br&gt;action: &lt;b&gt;VR_MODE_RUN_NONE&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="-114" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-132" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.003;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.826;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-129" target="sXWmz9hjVyttIy2R4i8F-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1880" y="50" as="sourcePoint" />
+            <mxPoint x="2150" y="1100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2170" y="-33" />
+              <mxPoint x="2150" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-134" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.018;exitY=0.239;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-128">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="-90" as="sourcePoint" />
+            <mxPoint x="1180" y="-330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1180" y="-90" />
             </Array>
           </mxGeometry>
         </mxCell>
