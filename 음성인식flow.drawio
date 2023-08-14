@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T00:38:22.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="s4eGiKKWBFl2xf0iD1_G" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T06:14:37.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="q1gQ6gKgKKCKVc9TNVPj" version="21.6.7" type="github">
   <diagram name="페이지-1" id="XCwguPV3iCqasTkN0QVd">
-    <mxGraphModel dx="3666" dy="3492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3202" dy="3226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,16 +11,16 @@
           <mxGeometry x="-370" y="-1190" width="1583" height="590" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-121" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;PLAYBACK SERVICE&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="1170" width="1100" height="1070" as="geometry" />
+          <mxGeometry x="1240" y="1690" width="1100" height="1070" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-92" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;VR MANAGER&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="10" y="220" width="770" height="1230" as="geometry" />
+          <mxGeometry x="10" y="220" width="770" height="2060" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-91" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;ASR&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="410" width="810" height="720" as="geometry" />
+          <mxGeometry x="1241" y="1000" width="810" height="650" as="geometry" />
         </mxCell>
-        <mxCell id="sXWmz9hjVyttIy2R4i8F-90" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;LG AI&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="1710" width="1520" height="550" as="geometry" />
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-90" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;DQC 쪽 LG AI&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="2760" width="1860" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-89" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;LED&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-1650" y="200" width="1110" height="720" as="geometry" />
@@ -77,19 +77,19 @@
           <mxGeometry x="620" y="-140" width="60" height="66" as="geometry" />
         </mxCell>
         <mxCell id="TrRbaetDsdgHLVqCblbi-20" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#007fff&quot;&gt;APPS_VR_MANAGER_TASK()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(service_vr_manager.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- DQC에서 다음 실행할 동작을 제어해주는 handler thread&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 무한 루프를 돌면서 msg를 받으면 그것을 바로 case 마다 처리&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="30" y="390" width="730" height="990" as="geometry" />
+          <mxGeometry x="30" y="390" width="730" height="1810" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-1" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#007fff&quot;&gt;Send_message_to_vr_manager()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(service_vr_manager.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- main vr_manager task에게 다음 실행해야 할 부분을 message 형태로 가공해서 보내주는 함수&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- SendMsg(&lt;b&gt;APPS_VR_MANAGER_TASK_ID&lt;/b&gt;, &amp;amp;message)로 전송&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
           <mxGeometry x="210" y="272" width="390" height="100" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-2" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;eVR_MANAGER_WAKEUP_DONE&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- MODEM에게 vr status를 전송 ( 1을 전송)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- &lt;b&gt;wifi 가 연결 되어있다면:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;APPS_VR_MANAGER_TASK에게 eTYPE_VOICE_FEEDBACK_LED를 실행하도록 VR_FEEDBACK_WAKEUP_ACCEPTED의 정보를 전달&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;2.&amp;nbsp;APPS_VR_MANAGER_TASK에게 eVR_MANAGER_ACTIVATE_ASR_THREAD를 보내서 asr 실행&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;- wifi 가 연결되어있지 않다면:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;1.&amp;nbsp;APPS_VR_MANAGER_TASK에게 eTYPE_VOICE_FEEDBACK_LED를실행하도록 VR_FEEDBACK_ASR_ERROR_RESULT의 정보를 전달&lt;/div&gt;&lt;div&gt;2.playlist_push() :&amp;nbsp; &quot;네트워크 연결 상태를 확인해주세요&quot; 음원을 playlist에 넣는 함수 실행&lt;br&gt;&lt;/div&gt;3. send_message_to_playback_playlist_update :&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;update되었다고 playback thread에게 메시지 전달&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="570" width="710" height="220" as="geometry" />
+          <mxGeometry x="40" y="559" width="710" height="220" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-3" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;eTYPE_VOICE_FEEDBACK_LED&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 인자로 받은 led 정보를 g_sound_apps -&amp;gt;vr_manager_led_feedback_value에 저장&amp;nbsp;&lt;/div&gt;- 인자로 받은 led 정보를&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;send_to_led_vr_event로 전송&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="810" width="710" height="70" as="geometry" />
+          <mxGeometry x="40" y="795" width="710" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-4" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;eVR_MANAGER_ACTIVATE_ASR&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- MODEM에게 vr status를 전송 ( 1을 전송)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- &lt;b&gt;stop_deinit_vr_core_wakeup&lt;/b&gt;():&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;실제 기동어 엔진을 중단하지 않고 KWD_status 만 false로 지정 (어차피 기동어 엔진이 while 문 돌다가 여기로 온거니까, asr이 다 끝나면 다시 기동어 인식으로 자연스럽게 돌아갈 것이다&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- &lt;b&gt;stop_deinit_vr_core_asr():&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;만약에 asr thread가 돌고 있었다면 그것을 멈춰줌&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- &lt;b&gt;init_start_vr_core_asr():&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;g_sound_apps-&amp;gt;dqc_vr_state = DQC_VR_STATE_ASR&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;epd_skip_byte 가 0이 아니면 &lt;b&gt;store_detected_sound &lt;/b&gt;함수를 통해 기동어 녹음을 저장&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;activate_engine(LGAI_VOICE_RECOGNITION_NLP_TYPE, LGAI_ACTIVATE&lt;span style=&quot;background-color: initial;&quot;&gt;) 실행&lt;br&gt;&lt;/span&gt;&lt;br&gt;LGAI_StartEngine(LGAI_VOICE_RECOGNITION_NLP_TYPE) 실행&lt;br&gt;&lt;br&gt;mAsrStatus = LGAI_ENGINE_STATUS_START&lt;br&gt;&lt;br&gt;needkwddatasend = DQC_TRUE (기동어 음성을 보내기 위함)&lt;br&gt;&lt;br&gt;main asr thread인 &lt;b&gt;APPS_VR_ASR_Task&lt;/b&gt; 실행&lt;br&gt;&lt;br&gt;asr_task_init()&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="904" width="710" height="466" as="geometry" />
+          <mxGeometry x="40" y="888" width="710" height="416" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.007;exitY=0.327;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.003;entryY=0.356;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-2" target="sXWmz9hjVyttIy2R4i8F-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -172,16 +172,16 @@
           <mxGeometry x="-170" y="-30" width="440" height="105" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-38" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;activate_engine(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(lib_wakeup_asr_tts.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- LGAI_SetEngineActivate(LGAI_VOICE_RECOGNITION_NLP_TYPE, LGAI_ACTIVATE)&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="1480" width="490" height="70" as="geometry" />
+          <mxGeometry x="-280" y="2310" width="490" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-40" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;LGAI_VOICE_RECOGNITION_NLP_TYPE&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left; font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;LGAI_ACTIVATE&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-250" y="1340" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-42" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;LGAI_SetEngineActivate(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(LGAI_API.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 각 nlp, tts의 engine의 활성화 또는 비활성화 status를 정해주는 함수&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="-404.5" y="1810" width="424.5" height="280" as="geometry" />
+          <mxGeometry x="-750" y="2860" width="424.5" height="280" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-43" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;LGAI_VOICE_RECOGNITION_NLP_TYPE:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- mAsrActivation = &lt;b&gt;LGAI_ACTIVATE&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- mAsrStatus = &lt;b&gt;LGAI_ENGINE_STATUS_IDLE&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="-396.5" y="1890" width="406.5" height="70" as="geometry" />
+          <mxGeometry x="-741" y="2940" width="406.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.008;exitY=0.568;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-4" target="sXWmz9hjVyttIy2R4i8F-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -193,10 +193,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-47" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;LGAI_StartEngine(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(LGAI_API.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 각 nlp, tts의 engine의 시작 함수를 불러주는 함수&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1810" width="390" height="280" as="geometry" />
+          <mxGeometry x="-276" y="2860" width="390" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="sXWmz9hjVyttIy2R4i8F-48" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;LGAI_VOICE_RECOGNITION_NLP_TYPE:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- startAsrNlp()&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="158" y="1890" width="372" height="70" as="geometry" />
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-48" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;LGAI_VOICE_RECOGNITION_NLP_TYPE:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- startAsrNlp()&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="-269" y="2940" width="372" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.001;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-1" target="sXWmz9hjVyttIy2R4i8F-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -219,43 +219,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-55" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;startAsrNlp(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(LGAI_API.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- MODEM에게 FID_START_ASR_NLP를 보냄&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="158" y="2150" width="320" height="70" as="geometry" />
+          <mxGeometry x="-262" y="3330" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-58" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;asr_task_init(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(service_vr_core_asr.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- 만약에 멀티턴이면 modem에게 FID_ACTIVE_MIC_STATUS보내줌&lt;br&gt;- error가 없을 시 g_sound_apps-&amp;gt;vr_asr_server_ready를 DQC_TRUE로 지정&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="1010" width="490" height="90" as="geometry" />
+          <mxGeometry x="1401" y="1509" width="490" height="90" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-59" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#007fff&quot;&gt;APPS_VR_ASR_TASK()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(service_vr_core_asr.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 음성 녹음을 modem으로 전송해주는 main thread&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- detected_sound_process()를 통해 modem으로 저장된 명령어 전송&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- asr_end_of_speech_done&amp;nbsp; 이 0, 즉 아직 발화중이라면 읽은 만큼을 modem으로 LGAI_Process를 통해 전송&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 음성인식이 끝났고 6초안에 tts 응답이 안 올 경우 ( !asr_reponse_time_done)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;1. send_message_to_vr_manager(eTYPE_VOICE_FEEDBACK_LED, 0, VR_FEEDBACK_PLAY_SND);&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 음성 playlist에 &lt;b&gt;&quot;잠시만 기다려주세요&quot;&lt;/b&gt; 음원 전송&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 음성인식이 20초안에 진전이 없을 경우 (즉 tts도 안 받고 그냥 대기중인 상태) (!asr_total_time_done):&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. send_message_to_playback_stop()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. playlist_reset&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;3. send_message_to_vr_manager(eTYPE_VOICE_FEEDBACK_LED, 0, VR_FEEDBACK_ASR_ERROR_RESULT);&lt;br&gt;4. playlist_push() : &quot;네트워크 연결 상태를 확인해주세요&quot; 음원을 playlist에 넣는 함수 실행&lt;br&gt;5. send_message_to_playback_playlist_update : playlist_update되었다고 playback thread에게 메시지 전달&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1319" y="485" width="641" height="335" as="geometry" />
+          <mxGeometry x="1340" y="1057" width="641" height="335" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-63" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;detected_sound_process()&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(service_vr_core_asr.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- g_sound_apps-&amp;gt;detectedSound에 저장된 음성 파일을 3072만큼씩 modem으로 LGAI_Process를 통해 전송&lt;br&gt;- 다 보낸뒤 epd_skip_byte를 0으로 만들어서 멀티턴일때 기동어 음성 파일을 다시 보내는 것을 방지" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
           <mxGeometry x="986" y="-30" width="440" height="105" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-48" target="sXWmz9hjVyttIy2R4i8F-55">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="130" y="1900" as="sourcePoint" />
-            <mxPoint x="140" y="2170" as="targetPoint" />
+            <mxPoint x="-310" y="2950" as="sourcePoint" />
+            <mxPoint x="-300" y="3220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="90" y="1900" />
-              <mxPoint x="90" y="2170" />
+              <mxPoint x="-310" y="2958" />
+              <mxPoint x="-310" y="3220" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-66" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;LGAI_Process(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(LGAI_API.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 각 nlp, tts의 engine을 실행 (execute) 해주는 함수&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1810" width="390" height="280" as="geometry" />
+          <mxGeometry x="680" y="2860" width="390" height="280" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-67" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;LGAI_VOICE_RECOGNITION_NLP_TYPE:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- runAsrNlp()&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="688" y="1890" width="372" height="70" as="geometry" />
+          <mxGeometry x="688" y="2940" width="372" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-68" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;runAsrNlp(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(LGAI_API.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- MODEM에게 FID_RUN_ASR_NLP를 보냄, 이때 음성 파일도 같이 보냄&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="698" y="2150" width="320" height="80" as="geometry" />
+          <mxGeometry x="698" y="3330" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.147;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-67" target="sXWmz9hjVyttIy2R4i8F-68">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="1900" as="sourcePoint" />
-            <mxPoint x="680" y="2170" as="targetPoint" />
+            <mxPoint x="670" y="2950" as="sourcePoint" />
+            <mxPoint x="680" y="3220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="630" y="1900" />
-              <mxPoint x="630" y="2170" />
+              <mxPoint x="630" y="2950" />
+              <mxPoint x="630" y="3220" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -265,7 +265,7 @@
             <mxPoint x="658" y="400" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1190" y="640" />
-              <mxPoint x="1190" y="400" />
+              <mxPoint x="1120" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -273,38 +273,36 @@
           <mxGeometry x="-1555" y="590" width="420" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-93" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;VR_FEEDBACK_PLAY_SND&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="980" y="380" width="170" height="20" as="geometry" />
+          <mxGeometry x="910" y="350" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-94" value="" style="endArrow=classic;html=1;strokeColor=#000000;rounded=0;dashed=1;dashPattern=12 12;exitX=0.001;exitY=0.743;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-59" target="sXWmz9hjVyttIy2R4i8F-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1320" y="740" as="sourcePoint" />
             <mxPoint x="648" y="420" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1170" y="734" />
-              <mxPoint x="1170" y="420" />
+              <mxPoint x="1090" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-96" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;VR_FEEDBACK_ASR_ERROR_RESULT&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
-          <mxGeometry x="960" y="420" width="202" height="20" as="geometry" />
+          <mxGeometry x="830" y="410" width="202" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-97" target="sXWmz9hjVyttIy2R4i8F-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-97" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;playlist_push(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(sound_playlist.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- playlist에 추가를 진행하기 위한 절차 함수&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="1220" width="250" height="70" as="geometry" />
+          <mxGeometry x="1430" y="1740" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-98" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;playlist_add_item(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(sound_playlist.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- g_sound_apps-&amp;gt;playlist-&amp;gt;item에 음원 파일 정보를 저장 (file 이름, spx/mp3, 재생 시작 offset)&lt;br&gt;- playback 다음에 진행할 action을 g_sound_apps-&amp;gt;vr_manager_action_after_playback 에 저장" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="1340" width="510" height="90" as="geometry" />
+          <mxGeometry x="1300" y="1860" width="510" height="90" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-100" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.001;exitY=0.792;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.13;entryY=-0.054;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-59" target="sXWmz9hjVyttIy2R4i8F-97">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1140" y="760" as="sourcePoint" />
             <mxPoint x="1190" y="1260" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1140" y="750" />
-              <mxPoint x="1140" y="1190" />
-              <mxPoint x="1353" y="1190" />
+              <mxPoint x="1150" y="1260" />
+              <mxPoint x="1130" y="1710" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -315,19 +313,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-103" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;send_message_to_playback_playlist_update(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(service_playback.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- playback thread에게 message를 보내기 위한 함수&amp;nbsp;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="1610" y="1480" width="292" height="70" as="geometry" />
+          <mxGeometry x="1610" y="2000" width="292" height="70" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-104" target="sXWmz9hjVyttIy2R4i8F-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-104" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;send_message_to_playback(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(service_playback.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- playback thread에게 message를 보내기 위한 함수&lt;br&gt;- &lt;b&gt;SendMsg&lt;/b&gt;(APPS_PLAYBACK_TASK_ID, &amp;amp;message)&amp;nbsp;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="1610" width="312" height="90" as="geometry" />
+          <mxGeometry x="1960" y="2130" width="312" height="90" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-109" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#007fff&quot;&gt;playback_service_thread_main()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(service_playback.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 받은 msg type에 따라 음원 재생을 진행해주는&amp;nbsp;thread&lt;span style=&quot;background-color: initial;&quot;&gt;, 그리고 그 뒤에 어떻게 할 지 알려주는 thread&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1630" y="1800" width="550" height="335" as="geometry" />
+          <mxGeometry x="1630" y="2320" width="550" height="335" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-112" value="&lt;div style=&quot;&quot;&gt;msgType ==&amp;nbsp;&lt;b&gt;ePLAYBACK_MSG_LIST_UPDATED&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- g_sound_apps-&amp;gt;playitem을 확인하고 거기에 있는 음원 재생&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- HAL_AUDIO_Open(&lt;b&gt;AUDIO_STREAM_OUT&lt;/b&gt;)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- sound_playback_speex_start(...,&lt;b&gt; g_sound_apps-&amp;gt;playitem.file&lt;/b&gt;)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 다 하고 다시 playback_service_thread_main()으로 들어가서 다른 msg를 기다린다&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="1890" width="530" height="90" as="geometry" />
+          <mxGeometry x="1640" y="2410" width="530" height="90" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-113" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.002;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.008;exitY=0.663;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-2" target="sXWmz9hjVyttIy2R4i8F-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -348,21 +346,21 @@
             <mxPoint x="1280" y="1430" as="targetPoint" />
             <Array as="points">
               <mxPoint x="940" y="735" />
-              <mxPoint x="940" y="1363" />
+              <mxPoint x="940" y="1850" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-116" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;type: &lt;b&gt;PLAYLIST_TYPE_SPEEX&lt;/b&gt;&lt;br&gt;fliename: &lt;b&gt;PLAY_RESOURCE_SND_NETWORK_ERROR&lt;/b&gt;&lt;br&gt;action: &lt;b&gt;VR_MODE_RUN_WAKEUP&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="963" y="1480" width="270" height="40" as="geometry" />
+          <mxGeometry x="1000" y="1830" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-103" target="sXWmz9hjVyttIy2R4i8F-107">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1902" y="1515" as="sourcePoint" />
-            <mxPoint x="2116" y="1610" as="targetPoint" />
+            <mxPoint x="1902" y="2035" as="sourcePoint" />
+            <mxPoint x="2116" y="2130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-107" value="ePLAYBACK_MSG_LIST_UPDATED" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1930" y="1490" width="200" height="30" as="geometry" />
+          <mxGeometry x="1930" y="2010" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-119" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.001;exitY=0.871;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-2" target="sXWmz9hjVyttIy2R4i8F-103">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -370,21 +368,20 @@
             <mxPoint x="1600" y="1520" as="targetPoint" />
             <Array as="points">
               <mxPoint x="930" y="760" />
-              <mxPoint x="930" y="1520" />
+              <mxPoint x="930" y="1990" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sXWmz9hjVyttIy2R4i8F-120" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="sXWmz9hjVyttIy2R4i8F-103">
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-120" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=1.003;exitY=0.821;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-59" target="sXWmz9hjVyttIy2R4i8F-103">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1960" y="760" as="sourcePoint" />
             <mxPoint x="2020" y="1310" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2090" y="760" />
               <mxPoint x="2100" y="1330" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sXWmz9hjVyttIy2R4i8F-125" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-63">
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-125" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-63" target="sXWmz9hjVyttIy2R4i8F-66">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="815" y="960" as="sourcePoint" />
             <mxPoint x="815.17" y="1809" as="targetPoint" />
@@ -395,7 +392,7 @@
             <mxPoint x="1120" y="600" as="sourcePoint" />
             <mxPoint x="830" y="1270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="830" y="600" />
+              <mxPoint x="829" y="1120" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -411,8 +408,8 @@
         <mxCell id="sXWmz9hjVyttIy2R4i8F-140" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;APPS_AUD_CLIENT_MAIN_task()&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(apps_aud.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 전체적인 audio control를 위한 thread&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- seamless를 위한 timer (2초) 및 timer가 끝나면 실행되는&amp;nbsp; callback 함수 (timer_seamless_callback) 생성&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- APPS_AUD_TASK_ID의 id를 가진 message를 받으면 각 message의 case에 맞게 실행&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="783" y="-1110" width="417" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="sXWmz9hjVyttIy2R4i8F-141" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;APP_AUD_CMD_CAPTURE_START&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 인자로 받은 led 정보를 g_sound_apps -&amp;gt;vr_manager_led_feedback_value에 저장 -&amp;nbsp;&lt;/div&gt;- 인자로 받은 led 정보를&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;send_to_led_vr_event로 전송&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="793" y="-980" width="397" height="70" as="geometry" />
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-141" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;APP_AUD_CMD_CAPTURE_START&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 인자로 받은 led 정보를 g_sound_apps -&amp;gt;vr_manager_led_feedback_value에 저장 -&amp;nbsp;&lt;/div&gt;- 인자로 받은 led 정보를&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;send_to_led_vr_event로 전송&lt;br&gt;&lt;/span&gt;- 음성 녹음을 저장하기 위한 ring buffer init&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="793" y="-980" width="397" height="100" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-142" target="TrRbaetDsdgHLVqCblbi-3">
           <mxGeometry relative="1" as="geometry" />
@@ -466,16 +463,16 @@
           <mxGeometry x="1760" y="-870" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sXWmz9hjVyttIy2R4i8F-156" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;APP_AUD_CMD_PUSH_WAKEUP_SOUND&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;1. send_message_to_playback_stop()&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;2. playlist_reset&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;3. playlist_push() : &quot;띵동&quot; 음원을 playlist에 넣는 함수 실행&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;4. send_message_to_playback_playlist_update : playlist_update되었다고 playback thread에게 메시지 전달&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="793" y="-890" width="397" height="150" as="geometry" />
+          <mxGeometry x="793" y="-859" width="397" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="sXWmz9hjVyttIy2R4i8F-157" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.006;exitY=0.368;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-156">
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-157" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.006;exitY=0.368;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-156" target="sXWmz9hjVyttIy2R4i8F-97">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1340" y="-1160" as="sourcePoint" />
             <mxPoint x="1680" y="1260" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1370" y="-1200" />
               <mxPoint x="2440" y="-1200" />
-              <mxPoint x="2440" y="1250" />
+              <mxPoint x="2450" y="1775" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -489,7 +486,7 @@
             <Array as="points">
               <mxPoint x="1390" y="-1280" />
               <mxPoint x="2470" y="-1280" />
-              <mxPoint x="2470" y="1430" />
+              <mxPoint x="2470" y="1950" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -520,6 +517,73 @@
               <mxPoint x="640" y="-890" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-166" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;_deliver_raw_packet&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(204, 204, 0);&quot;&gt;(modem_msg.c)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- 받은 packet혹은 전송할 packet을 message로 만들어서 modem worker에게 전송" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="3750" y="-1010" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-167" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;_modem_worker&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(204, 204, 0);&quot;&gt;(modem_worker.c)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- 받은 message를 _process_msg를 통해 처리" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="3750" y="-859" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-168" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;_process_msg&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(204, 204, 0);&quot;&gt;(modem_worker.c)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- 각 msg마다 처리해주는 handler" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="3750" y="-704" width="320" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-170" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;MSG_UART_RX&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- DQC에게 받은 것을 처리해줌&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- _process_uart_rx_msg&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="3757" y="-630" width="305" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-171" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;_process_uart_rx_msg&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(204, 204, 0);&quot;&gt;(modem_worker.c)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="4160" y="-690" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-172" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;modem_handle_uart_packet&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(204, 204, 0);&quot;&gt;(modem_packet.c)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="4160" y="-540" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-173" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;modem_handle_uart_packet_by_extended_framID&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(204, 204, 0);&quot;&gt;(modem_packet.c)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="4450" y="-800" width="490" height="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-174" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;modem_send_data&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(204, 204, 0);&quot;&gt;(modem_serial_spi_impl.h)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- modem_send_data_dqc_spi 전 버전인 것 같다&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="3820" y="-120" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-175" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;modem_send_to_spi_by_master&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(204, 204, 0);&quot;&gt;(modem_serial_spi_impl.h)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="3820" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-176" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;eVR_MANAGER_ACTIVATE_TTS_THREAD&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- MODEM에게 vr status를 전송 (1을 전송)&lt;br&gt;&lt;br&gt;- &lt;b&gt;stop_deinit_vr_core_asr&lt;/b&gt;():&lt;br&gt;&lt;br&gt;- &lt;b&gt;stop_deinit_vr_core_tts&lt;/b&gt;():&lt;br&gt;&lt;br&gt;- &lt;b&gt;init_start_vr_core_tts&lt;/b&gt;():&lt;br&gt;LGAI_StartEngine(LGAI_SERVER_TTS_TYPE) 실행&lt;br&gt;&lt;br&gt;mServerTTSStatus = LGAI_ENGINE_STATUS_START;&lt;br&gt;&lt;br&gt;main tts thread인&amp;nbsp;&lt;b&gt;APPS_VR_TTS_Task&lt;/b&gt; 실행&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1329" width="710" height="411" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-177" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;LGAI_StopEngine(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(LGAI_API.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 각 nlp, tts의 engine의 시작 함수의 끝을 맺어주는 함수&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2860" width="390" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-178" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;LGAI_VOICE_RECOGNITION_NLP_TYPE:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- stopAsrNlp()&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="199" y="2940" width="372" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-179" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;stopAsrNlp(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(LGAI_API.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- 현재 DQC 쪽에서는 유의미한 게 없다&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="225" y="3330" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-180" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="sXWmz9hjVyttIy2R4i8F-178" target="sXWmz9hjVyttIy2R4i8F-179">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="193" y="2960" as="sourcePoint" />
+            <mxPoint x="203" y="3230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="135" y="2960" />
+              <mxPoint x="135" y="3218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-181" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;LGAI_SERVER_TTS_TYPE:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- stopServerTts()&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="199" y="3020" width="372" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-182" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;stopServerTts(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(LGAI_API.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- 현재 DQC 쪽에서는 유의미한 게 없다&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="225" y="3410" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-183" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;LGAI_SERVER_TTS_TYPE:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- startServerTts()&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="-269" y="3020" width="372" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-184" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;startServerTts(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(LGAI_API.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- MODEM에게 FID_START_SERVER_TTS를 보냄&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="-282" y="3410" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-185" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;TTS&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="110" width="810" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="sXWmz9hjVyttIy2R4i8F-187" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#007fff&quot;&gt;APPS_VR_TTS_TASK()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(service_vr_core_tts.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 음성 녹음을 modem으로 전송해주는 main thread&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- detected_sound_process()를 통해 modem으로 저장된 명령어 전송&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- asr_end_of_speech_done&amp;nbsp; 이 0, 즉 아직 발화중이라면 읽은 만큼을 modem으로 LGAI_Process를 통해 전송&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 음성인식이 끝났고 6초안에 tts 응답이 안 올 경우 ( !asr_reponse_time_done)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;1. send_message_to_vr_manager(eTYPE_VOICE_FEEDBACK_LED, 0, VR_FEEDBACK_PLAY_SND);&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 음성 playlist에 &lt;b&gt;&quot;잠시만 기다려주세요&quot;&lt;/b&gt; 음원 전송&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 음성인식이 20초안에 진전이 없을 경우 (즉 tts도 안 받고 그냥 대기중인 상태) (!asr_total_time_done):&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. send_message_to_playback_stop()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. playlist_reset&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;3. send_message_to_vr_manager(eTYPE_VOICE_FEEDBACK_LED, 0, VR_FEEDBACK_ASR_ERROR_RESULT);&lt;br&gt;4. playlist_push() : &quot;네트워크 연결 상태를 확인해주세요&quot; 음원을 playlist에 넣는 함수 실행&lt;br&gt;5. send_message_to_playback_playlist_update : playlist_update되었다고 playback thread에게 메시지 전달&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1569" y="167" width="641" height="335" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
