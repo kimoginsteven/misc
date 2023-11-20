@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T02:23:36.988Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="O-Xf_JWGSLfgha3LBcVE" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T02:30:55.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="gL36R_jDPxWbvLyaVOaA" version="22.1.3" type="github">
   <diagram name="페이지-1" id="w3nvK51af3fUXopB2fl-">
-    <mxGraphModel dx="3445" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5011" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,43 +32,40 @@
           <mxGeometry x="-1347" y="1029" width="440" height="130" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-30" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;PLAYBACK SERVICE&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="380" width="1530" height="1070" as="geometry" />
+          <mxGeometry x="980" y="535" width="1530" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rJZymFhFSf-qSMHibZzN-32" target="rJZymFhFSf-qSMHibZzN-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-32" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;playlist_push(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(sound_playlist.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- playlist에 추가를 진행하기 위한 절차 함수&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="460" width="250" height="70" as="geometry" />
+          <mxGeometry x="1040" y="615" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-33" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;playlist_add_item(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(sound_playlist.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- g_sound_apps-&amp;gt;playlist-&amp;gt;item에 음원 파일 정보를 저장 (file 이름, spx/mp3, 재생 시작 offset)&lt;br&gt;- playback 다음에 진행할 action을 g_sound_apps-&amp;gt;vr_manager_action_after_playback 에 저장" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="575" width="510" height="90" as="geometry" />
+          <mxGeometry x="1040" y="730" width="510" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rJZymFhFSf-qSMHibZzN-35" target="rJZymFhFSf-qSMHibZzN-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-35" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;send_message_to_playback_playlist_update(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(service_playback.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- playback thread에게 message를 보내기 위한 함수&amp;nbsp;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="709" width="292" height="70" as="geometry" />
+          <mxGeometry x="1040" y="880" width="292" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rJZymFhFSf-qSMHibZzN-37" target="rJZymFhFSf-qSMHibZzN-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-37" value="&lt;div style=&quot;&quot;&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;send_message_to_playback(&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;)&lt;/b&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(service_playback.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;- playback thread에게 message를 보내기 위한 함수&lt;br&gt;- &lt;b&gt;SendMsg&lt;/b&gt;(APPS_PLAYBACK_TASK_ID, &amp;amp;message)&amp;nbsp;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="820" width="312" height="90" as="geometry" />
+          <mxGeometry x="1040" y="1000" width="312" height="90" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-38" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#007fff&quot;&gt;playback_service_thread_main()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(service_playback.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 받은 msg type에 따라 음원 재생을 진행해주는&amp;nbsp;thread&lt;span style=&quot;background-color: initial;&quot;&gt;, 그리고 그 뒤에 어떻게 할 지 알려주는 thread&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="959" width="550" height="420" as="geometry" />
+          <mxGeometry x="1600" y="653.8199999999999" width="550" height="420" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-39" value="&lt;div style=&quot;&quot;&gt;msgType ==&amp;nbsp;&lt;b&gt;ePLAYBACK_MSG_LIST_UPDATED&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- g_sound_apps-&amp;gt;playitem을 확인하고 거기에 있는 음원 재생&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- HAL_AUDIO_Open(&lt;b&gt;AUDIO_STREAM_OUT&lt;/b&gt;)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- sound_playback_speex_start(...,&lt;b&gt; g_sound_apps-&amp;gt;playitem.file&lt;/b&gt;)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 다 하고 다시 playback_service_thread_main()으로 들어가서 다른 msg를 기다린다&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="1049" width="530" height="90" as="geometry" />
+          <mxGeometry x="1610" y="743.8199999999999" width="530" height="90" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-46" value="&lt;div style=&quot;&quot;&gt;msgType ==&amp;nbsp;&lt;b&gt;ePLAYBACK_MSG_TTS_PLAY&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- HAL_AUDIO_Open(&lt;b&gt;AUDIO_STREAM__OUT&lt;/b&gt;)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- &lt;b&gt;sound_playback_speex_stream_play&lt;/b&gt;()&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="1159" width="530" height="90" as="geometry" />
+          <mxGeometry x="1610" y="853.8199999999999" width="530" height="90" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-49" value="&lt;div style=&quot;&quot;&gt;msgType ==&amp;nbsp;&lt;b&gt;ePLAYBACK_MSG_DECODER_DONE&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- tts 끝나고 다음 action을 정해줌&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 보통 &lt;b&gt;VR_MODE_RUN_ASR_DONE&lt;/b&gt;으로 들어감&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="1269" width="530" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="rJZymFhFSf-qSMHibZzN-51" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="40" y="540" width="790" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="rJZymFhFSf-qSMHibZzN-50" value="&lt;b&gt;DQC_AP_CONNECT_REQUEST: &lt;/b&gt;(제품 등록 시도. 버튼 7초 이상 누름)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="rJZymFhFSf-qSMHibZzN-51">
-          <mxGeometry width="790" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="rJZymFhFSf-qSMHibZzN-5" value="&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;led 제어 신호 전송 : led_send_event(&lt;b&gt;LED_EVT_CONNET_MODE&lt;/b&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="rJZymFhFSf-qSMHibZzN-51">
-          <mxGeometry x="10" y="30" width="360" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="rJZymFhFSf-qSMHibZzN-6" value="&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;음원 재생 :&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;playlist_push(&amp;amp;g_sound_apps-&amp;gt;playlist, PLAYLIST_TYPE_CODEC, &lt;b&gt;PLAY_RESOURCE_SND_ENTER_AP_MODE&lt;/b&gt;, VR_MODE_RUN_NONE)&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;send_message_to_playback_playlist_update();&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="rJZymFhFSf-qSMHibZzN-51">
-          <mxGeometry x="10" y="83" width="770" height="77" as="geometry" />
+          <mxGeometry x="1610" y="963.8199999999999" width="530" height="90" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-53" value="&lt;b&gt;DQC_AP_CONNECT_FAIL: &lt;/b&gt;(제품 등록 실패, 혹은 네트워크 연결 실패)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="40" y="730" width="790" height="80" as="geometry" />
@@ -106,8 +103,11 @@
         <mxCell id="rJZymFhFSf-qSMHibZzN-69" value="&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;led 제어 신호 전송 : led_send_event(&lt;b&gt;LED_EVT_COMPLETE_CONN&lt;/b&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="rJZymFhFSf-qSMHibZzN-67">
           <mxGeometry x="10" y="30" width="390" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rJZymFhFSf-qSMHibZzN-70" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;음원 재생 :&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;playlist_push(&amp;amp;g_sound_apps-&amp;gt;playlist, PLAYLIST_TYPE_CODEC, &lt;b&gt;PLAY_RESOURCE_SND_REGISTERED&lt;/b&gt;, VR_MODE_RUN_NONE)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;send_message_to_playback_playlist_update();&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;align=left;" vertex="1" parent="rJZymFhFSf-qSMHibZzN-67">
-          <mxGeometry x="10" y="83" width="770" height="77" as="geometry" />
+        <mxCell id="rJZymFhFSf-qSMHibZzN-98" value="&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;음원 로딩:&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;playlist_push(&amp;amp;g_sound_apps-&amp;gt;playlist, PLAYLIST_TYPE_CODEC, &lt;b&gt;PLAY_RESOURCE_SND_ENTER_AP_MODE&lt;/b&gt;, VR_MODE_RUN_NONE)&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="rJZymFhFSf-qSMHibZzN-67">
+          <mxGeometry x="10" y="77" width="770" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-99" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;음원 재생 선호 전달:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;send_message_to_playback_playlist_update();&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;align=left;" vertex="1" parent="rJZymFhFSf-qSMHibZzN-67">
+          <mxGeometry x="10" y="124" width="770" height="37" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rJZymFhFSf-qSMHibZzN-69" target="rJZymFhFSf-qSMHibZzN-11">
           <mxGeometry relative="1" as="geometry" />
@@ -128,6 +128,30 @@
           <mxGeometry x="10" y="220" width="420" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rJZymFhFSf-qSMHibZzN-5" target="rJZymFhFSf-qSMHibZzN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="rJZymFhFSf-qSMHibZzN-6" target="rJZymFhFSf-qSMHibZzN-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-50" value="&lt;b&gt;DQC_AP_CONNECT_REQUEST: &lt;/b&gt;(제품 등록 시도. 버튼 7초 이상 누름)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="540" width="790" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-5" value="&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;led 제어 신호 전송 : led_send_event(&lt;b&gt;LED_EVT_CONNET_MODE&lt;/b&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="570" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-6" value="&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;음원 로딩:&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;playlist_push(&amp;amp;g_sound_apps-&amp;gt;playlist, PLAYLIST_TYPE_CODEC, &lt;b&gt;PLAY_RESOURCE_SND_ENTER_AP_MODE&lt;/b&gt;, VR_MODE_RUN_NONE)&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="623" width="770" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="rJZymFhFSf-qSMHibZzN-97" target="rJZymFhFSf-qSMHibZzN-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-97" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;음원 재생 선호 전달:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;send_message_to_playback_playlist_update();&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="667" width="770" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rJZymFhFSf-qSMHibZzN-98" target="rJZymFhFSf-qSMHibZzN-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="rJZymFhFSf-qSMHibZzN-99" target="rJZymFhFSf-qSMHibZzN-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
