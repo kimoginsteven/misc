@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T06:50:45.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="EK7XbMB9phjDKCErx4gq" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-22T00:33:55.454Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="xjRYLMM-s1Uk05HJGQ-S" version="22.1.3" type="github">
   <diagram name="페이지-1" id="w3nvK51af3fUXopB2fl-">
-    <mxGraphModel dx="4321" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4038" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -187,16 +187,28 @@
           <mxGeometry x="3299" y="1859" width="780" height="171" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-123" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;make_data_old_to_extended_for_tx&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(204, 204, 0);&quot;&gt;(modem_worker.c)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Modem DQC 간 프로토콜은 extended packet으로만 통신하기 때문에 old frameID를 extended ID로 변환&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="4280" y="1847" width="580" height="442" as="geometry" />
+          <mxGeometry x="4460" y="1847" width="580" height="442" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-124" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;FID_APCONNECT_SUCCESS:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 제품 등록이 완료된 경우&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- extended frame ID == &lt;b&gt;FID_APCONNECT_SUCCESS_DQC&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="4290" y="1946" width="560" height="171" as="geometry" />
+          <mxGeometry x="4470" y="1946" width="560" height="94" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-125" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;MSG_DQC_TX:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- DQC로 전송&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-&amp;nbsp;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="3299" y="2055" width="780" height="171" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-128" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;_modem_worker()&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(204, 204, 0);&quot;&gt;(modem_worker.c)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- get_qid_modem()의 ID로 얻은 message를 &lt;b&gt;_process_msg&lt;/b&gt; 함수로 처리함&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
           <mxGeometry x="3289" y="1620" width="800" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-129" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;modem_deliver_msg_to_worker&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(204, 204, 0);&quot;&gt;(modem_worker.c)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- modem worker에게 packet을 전달하는 함수&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="4160" y="1911" width="250" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-130" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;FID_PLAY_INTERNAL_SOUND_DQC:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 제품 등록 실패할 경우, modem으로부터 이 packet이 전송됨&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1419" y="1950" width="780" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-131" value="&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;음원 로딩:&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;playlist_push(&amp;amp;g_sound_apps-&amp;gt;playlist, PLAYLIST_TYPE_CODEC, &lt;b&gt;PLAY_RESOURCE_SND_REGISTER_FAIL&lt;/b&gt;, VR_MODE_RUN_NONE)&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1423" y="2013" width="770" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="rJZymFhFSf-qSMHibZzN-132" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;음원 재생 선호 전달:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;send_message_to_playback_playlist_update();&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1423" y="2060" width="770" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
