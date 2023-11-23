@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T07:41:19.438Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="Cz-kQi7AqfAyViljmEi-" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T07:41:45.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="IOiMr6l_I4GPNPkdhVjt" version="22.1.3" type="github">
   <diagram name="페이지-1" id="w3nvK51af3fUXopB2fl-">
-    <mxGraphModel dx="3337" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-827" y="452" width="457" height="250" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-109" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;DQC SPI&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="1560" width="870" height="1326" as="geometry" />
+          <mxGeometry x="1040" y="1560" width="870" height="630" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;VR MANAGER&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="20" y="500" width="830" height="900" as="geometry" />
@@ -140,7 +140,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-106" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;b&gt;handle_spi_packet_by_extended_framID&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(204, 204, 0);&quot;&gt;(apps_spi.c)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- modem으로부터 받은 packet을 잘 처리해주는 함수&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" parent="1" vertex="1">
-          <mxGeometry x="1069" y="1648" width="800" height="1160" as="geometry" />
+          <mxGeometry x="1069" y="1648" width="800" height="502" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-107" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;FID_PRODUCT_REGISTERED_DQC:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 제품의 등록 여부를 알려줌&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 전원이 처음 켜졌을 때 제품이 미등록인 경우&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="1079" y="1747" width="780" height="171" as="geometry" />
@@ -184,7 +184,7 @@
         <mxCell id="rJZymFhFSf-qSMHibZzN-130" value="&lt;div style=&quot;&quot;&gt;case &lt;b&gt;FID_PLAY_INTERNAL_SOUND_DQC:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 제품 등록 실패할 경우, modem으로부터 이 packet이 전송됨&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="1079" y="1950" width="780" height="171" as="geometry" />
         </mxCell>
-        <mxCell id="rJZymFhFSf-qSMHibZzN-131" value="&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;음원 로딩:&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;playlist_push(&amp;amp;g_sound_apps-&amp;gt;playlist, PLAYLIST_TYPE_CODEC, &lt;b&gt;PLAY_RESOURCE_SND_REGISTER_FAIL&lt;/b&gt;, VR_MODE_RUN_NONE)&lt;/div&gt;&lt;div style=&quot;text-align: left; border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="rJZymFhFSf-qSMHibZzN-131" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;음원 로딩:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;playlist_push(&amp;amp;g_sound_apps-&amp;gt;playlist, PLAYLIST_TYPE_CODEC, &lt;b&gt;PLAY_RESOURCE_SND_REGISTER_FAIL&lt;/b&gt;, VR_MODE_RUN_NONE)&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="1083" y="2013" width="770" height="37" as="geometry" />
         </mxCell>
         <mxCell id="rJZymFhFSf-qSMHibZzN-132" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;음원 재생 선호 전달:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;send_message_to_playback_playlist_update();&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;align=left;" parent="1" vertex="1">
