@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T05:47:35.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="F-eBwAPc-2SnYU6FsIM8" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T06:04:57.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="vJI3jZ2UDv1MvXcgowr_" version="22.1.3" type="github">
   <diagram name="페이지-1" id="w3nvK51af3fUXopB2fl-">
-    <mxGraphModel dx="1884" dy="1772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4164" dy="3771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -516,17 +516,17 @@
         <mxCell id="xEw6EjbDMYNXG_AC3vzu-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.959;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rJZymFhFSf-qSMHibZzN-142" target="rJZymFhFSf-qSMHibZzN-128">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xEw6EjbDMYNXG_AC3vzu-63" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;PUI 버튼 TOUCH&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="460" width="520" height="390" as="geometry" />
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-63" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;b&gt;컨트톨러 PUI 버튼 TOUCH&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingLeft=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1110" y="460" width="520" height="390" as="geometry" />
         </mxCell>
         <mxCell id="xEw6EjbDMYNXG_AC3vzu-64" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#007fff&quot;&gt;touch_event_handler()&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#cccc00&quot;&gt;(apps_touch.c)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- 사용자의 터치에 따라 event 발생&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;spacingRight=0;spacingLeft=2;" vertex="1" parent="1">
-          <mxGeometry x="-790" y="520" width="490" height="280" as="geometry" />
+          <mxGeometry x="-1100" y="520" width="490" height="280" as="geometry" />
         </mxCell>
         <mxCell id="xEw6EjbDMYNXG_AC3vzu-65" value="&lt;b&gt;TOUCH_EVT_HAR_7S:&lt;/b&gt;&lt;br&gt;- 7초 동안 길게 누르기" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="605" width="470" height="65" as="geometry" />
+          <mxGeometry x="-1090" y="605" width="470" height="65" as="geometry" />
         </mxCell>
         <mxCell id="xEw6EjbDMYNXG_AC3vzu-66" value="&lt;b&gt;TOUCH_EVT_HAR_3S:&lt;/b&gt;&lt;br&gt;- 3초 동안 길게 누르기" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="690" width="470" height="65" as="geometry" />
+          <mxGeometry x="-1090" y="690" width="470" height="65" as="geometry" />
         </mxCell>
         <mxCell id="xEw6EjbDMYNXG_AC3vzu-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.127;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xEw6EjbDMYNXG_AC3vzu-65" target="rJZymFhFSf-qSMHibZzN-50">
           <mxGeometry relative="1" as="geometry" />
@@ -539,6 +539,57 @@
         </mxCell>
         <mxCell id="xEw6EjbDMYNXG_AC3vzu-70" value="&lt;span style=&quot;border-color: var(--border-color); text-align: left;&quot;&gt;&lt;font style=&quot;&quot;&gt;PLAY_RESOURCE_SND_REGISTER_FAIL&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#cc00cc&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;(&lt;/b&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;제품 등록이 준비됐어요 LG ThinQ앱에서 제품을 추가해주세요&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; border-color: var(--border-color); text-align: left;&quot;&gt;&lt;font color=&quot;#cc00cc&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;b&gt;)&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 19px;&quot;&gt;PLAY_RESOURCE_SND_REGISTER_FAIL&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#cc00cc&quot;&gt;(제품 등록이 완료되지 않았습니다. 다시 시도해주세요&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 19px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#cc00cc&quot;&gt;)&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 19px;&quot;&gt;PLAY_RESOURCE_SND_REGISTERED&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;color: rgb(204, 0, 204); border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#cc00cc&quot;&gt;(보이스 컨트롤러가 등록됐어요. 하이 엘지를 말해보세요. &lt;br&gt;가전 제품과 IoT 디바이스를 음성으로 작동할 수 있어요&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0); border-color: var(--border-color); font-size: 12px; font-weight: 400; background-color: initial;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 19px;&quot; color=&quot;#cc00cc&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1401" y="17" width="970" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-92" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1691" y="-1900" width="680" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-86" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="xEw6EjbDMYNXG_AC3vzu-92">
+          <mxGeometry width="680" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-87" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=10;strokeColor=#0063cc;" vertex="1" parent="xEw6EjbDMYNXG_AC3vzu-92">
+          <mxGeometry x="229" y="228" width="222" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-88" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=10;strokeColor=none;fillColor=#000000;" vertex="1" parent="xEw6EjbDMYNXG_AC3vzu-92">
+          <mxGeometry x="90" y="318" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-91" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=10;strokeColor=none;fillColor=#000000;" vertex="1" parent="xEw6EjbDMYNXG_AC3vzu-92">
+          <mxGeometry x="540" y="318" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-93" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#66B2E6;gradientDirection=south;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="-1970" width="600" height="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-94" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientDirection=north;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2591" y="-1530" width="260" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-95" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientDirection=north;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="-1530" width="260" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-96" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientDirection=north;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2591" y="-1290" width="260" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-97" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientDirection=north;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="-1280" width="260" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-98" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientDirection=north;fillColor=#dae8fc;strokeColor=#ff0000;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="2591" y="-1060" width="260" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-99" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 48px;&quot;&gt;&lt;b style=&quot;&quot;&gt;나의 스마트 가전&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="-1850" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-100" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;세탁기&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2620" y="-1450" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-101" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;건조기&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2920" y="-1450" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-102" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;냉장고&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2920" y="-1190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-103" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;광파오븐&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2620" y="-1190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xEw6EjbDMYNXG_AC3vzu-104" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;보이스컨트롤러&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2620" y="-950" width="210" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
